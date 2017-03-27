@@ -1,0 +1,201 @@
+    body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    z-index: 10;
+    background-color: lightcyan;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.time-part-container {
+    position: relative;
+}
+
+.time-part {
+    width: inherit;
+    height: inherit;
+    text-align: center;
+}
+
+.number {
+    height: inherit;
+    color: #372f9a;
+    font-size: 10em;
+    position: absolute;
+    animation-duration: 20s;
+    opacity: 0;
+    top: 50%;
+    left: 40%;
+    
+}
+
+.number:first-child{
+    top: 50%;
+    left: 30%;
+}
+.number:last-child{
+    font-size: 5em;
+    left: 60px;
+    top: 50px;
+    animation-fill-mode: forwards;
+}
+
+li {
+    list-style-type: none;
+}
+
+.fa {
+    color: #ff0000;
+}
+
+
+#ten {
+    
+    animation-name: ten;
+   
+}
+
+#nine {
+    
+    animation-name: nine;
+}
+
+#eight {
+    
+    animation-name: eight;
+}
+#seven {
+    
+    animation-name: seven;
+}
+#six {
+    animation-name: six;
+}
+#five {
+    animation-name: five;
+}
+#four {
+    animation-name: four;
+}
+#three {
+    animation-name: three;
+}
+#two {
+    animation-name: two;
+}
+#one {
+    animation-name: one;
+}
+#text {
+    animation-name: text;
+}
+
+@keyframes ten {
+    0%, 6% {
+        opacity: 0;
+    }
+    3% {
+        opacity: 1;
+    }
+
+}
+
+
+@keyframes nine {
+    9%, 15% {
+        opacity: 0;
+    }
+    12% {
+        opacity: 1;
+    }
+
+}
+
+@keyframes eight {
+    18%, 24% {
+        opacity: 0;
+    }
+    21% {
+        opacity: 1;
+    }
+
+}
+
+@keyframes seven {
+    27%, 33% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+
+}
+@keyframes six {
+    36%, 42% {
+        opacity: 0;
+    }
+    39% {
+        opacity: 1;
+    }
+}
+
+@keyframes five {
+    45%, 51% {
+        opacity: 0;
+    }
+    48% {
+        opacity: 1;
+    }
+}
+@keyframes four {
+    54%, 60% {
+        opacity: 0;
+    }
+    57% {
+        opacity: 1;
+    }
+}
+@keyframes three {
+    63%, 69% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 1;
+    }
+}
+@keyframes two {
+    72%, 78% {
+        opacity: 0;
+    }
+   75% {
+        opacity: 1;
+    }
+}
+@keyframes one {
+    81%, 88% {
+        opacity: 0;
+    }
+    84% {
+        opacity: 1;
+    }
+}
+@keyframes text {
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+   
